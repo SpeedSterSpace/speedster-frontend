@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ReactNode } from "react";
 
 type children = {
@@ -9,7 +10,12 @@ const Layout = ({ children }: children) => {
     <section className="w-full">
       <section className="w-full bg-[#120926] text-white sticky top-0 z-[1] py-4">
         <nav className="w-11/12 xl:w-3/4 mx-auto items-center flex justify-between">
-          <p>Speedtest</p>
+          <Image
+            src="/assets/newLogo.png"
+            alt="logo"
+            width={150}
+            height={150}
+          />
           <div className="flex gap-9 items-center">
             <a className="hidden md:block">Home</a>
             <a className="hidden md:block">Marketplace</a>

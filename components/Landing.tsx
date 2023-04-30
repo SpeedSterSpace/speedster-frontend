@@ -1,13 +1,26 @@
 import Image from "next/image";
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 const Landing = () => {
+  const [text, setText] = useState("");
+  const [fullText, setFullText] = useState("Explore the worlds beyond us");
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    if (index < fullText.length) {
+      setTimeout(() => {
+        setText(text + fullText[index]);
+        setIndex(index + 1);
+      }, 40);
+    }
+  }, [fullText, index, text]);
+
   return (
     <div className="w-full bg-ground bg-cover h-full p-1 bg-center text-white">
       <div className="w-11/12 xl:w-3/4 mx-auto flex flex-col-reverse md:flex-row items-center mt-[4rem]">
         <div className="w-full md:w-[50%] shrink-0 ">
           <h1 className="text-[2rem] xl:text-[3.8rem] leading-none mb-8 font-bold">
-            Explore the worlds beyond us
+            {text}
           </h1>
           <p>
             The universe is an endless expanse of wonder and possibility, with

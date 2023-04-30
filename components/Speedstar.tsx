@@ -5,7 +5,7 @@ const Speedstar = () => {
   return (
     <div>
       <div className="w-11/12 xl:w-3/4 mx-auto flex md:flex-row gap-y-[3rem] flex-col-reverse items-start md:my-[10rem] mt-[8rem]">
-        <div className="w-full md:w-[50%] md:sticky md:top-1 shrink-0 ">
+        <div className="w-full md:w-[50%] md:sticky md:top-[5.5rem] shrink-0 ">
           <h1 className="text-[2rem] xl:text-[4rem] leading-none mb-5 lg:mb-8 font-bold">
             {" "}
             About <span className="block">Speedster</span>
