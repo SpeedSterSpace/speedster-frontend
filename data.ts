@@ -14,7 +14,7 @@ export const data = [
   {
     name: "Sitzerk",
     content:
-      "A universe of magic and myth. Sitzerk is a world of enchantment and fantasy, where ancient magic flows through the very fabric of the universe",
+      "A universe of magic and myth. Sitzerk is a world of enchantment and fantasy, where ancient magic flows through the very fabric of the universe.",
     image: "/others/Frame 21.png",
   },
   {
@@ -32,7 +32,7 @@ export const data = [
   {
     name: "Krypton",
     content:
-      "A universe of magic and myth. Sitzerk is a world of enchantment and fantasy, where ancient magic flows through the very fabric of the universe",
+      "A universe of magic and myth. Sitzerk is a world of enchantment and fantasy, where ancient magic flows through the very fabric of the universe.",
     image: "/others/krypton.png",
   },
 ];
@@ -41,7 +41,7 @@ export const secondData = [
   {
     name: "Weapons",
     content:
-      "You'll have access to an arsenal of high-tech weaponry, including laser cannons, plasma rifles, and ion disruptors, to defend against hostile alien threats",
+      "You'll have access to an arsenal of high-tech weaponry, including laser cannons, plasma rifles, and ion disruptors, to defend against hostile alien threats.",
     image: "/assets/moon3.png",
     buttonName: "Buy now",
   },
@@ -55,7 +55,7 @@ export const secondData = [
   {
     name: "Resources",
     content:
-      "You'll need to gather and manage a variety of resources such as fuel, food, and rare minerals, in order to keep your ship running and upgrade your equipment",
+      "You'll need to gather and manage a variety of resources such as fuel, food, and rare minerals, in order to keep your ship running and upgrade your equipment.",
     image: "/assets/moon.png",
     buttonName: "Coming soon",
   },
