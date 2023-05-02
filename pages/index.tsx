@@ -8,6 +8,7 @@ import Roadmap from "@/components/Roadmap";
 import Partners from "@/components/Partners";
 import Slider from "@/components/Slider";
 import Nft from "@/components/Nft";
+import Typewriter from "typewriter-effect";
 
 export default function Home() {
   const project = [
@@ -39,9 +40,17 @@ export default function Home() {
       <Speedster />
       <div className="w-11/12 xl:w-3/4 mx-auto md:my-[8rem] mt-[5rem]">
         <h2 className="text-[2rem] xl:text-[4rem] leading-none mb-8 font-bold">
-          Galaxies Unending....
+          <Typewriter
+            options={{
+              strings: "Galaxies Unending....",
+              autoStart: true,
+              loop: true,
+              delay: 60,
+              deleteSpeed: 20,
+            }}
+          />
         </h2>
-        <div className="flex flex-wrap gap-x-[2%] gap-y-[5rem] justify-start">
+        <div className="flex flex-wrap gap-x-[2%] content-start gap-y-[5rem]">
           {data.map((item, index) => (
             <Grid
               key={index}
@@ -56,7 +65,15 @@ export default function Home() {
       <Nft />
       <div className="w-11/12 xl:w-3/4 mx-auto md:my-[8rem] mt-[5rem]">
         <h2 className="text-[2rem] xl:text-[4rem] leading-none mb-8 font-bold">
-          Marketplace
+          <Typewriter
+            options={{
+              strings: "Marketplace",
+              autoStart: true,
+              loop: true,
+              delay: 60,
+              deleteSpeed: 20,
+            }}
+          />
         </h2>
         <div className="flex flex-wrap gap-x-[2%] gap-y-[5rem]">
           {secondData.map((item, index) => (
