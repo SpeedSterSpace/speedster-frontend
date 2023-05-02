@@ -17,8 +17,8 @@ const Layout = ({ children }: children) => {
             height={150}
           />
           <div className="flex gap-9 items-center">
-            <a className="hidden md:block">Home</a>
-            <a className="hidden md:block">Marketplace</a>
+            <a className="hidden md:block" href="#">Home</a>
+            <a className="hidden md:block" href="#">Marketplace</a>
             <button className="h-[2.8rem] w-[10rem] rounded-xl bg-gradient-to-r from-secondary to-primary text-[#190C33]">
               Start playing
             </button>
