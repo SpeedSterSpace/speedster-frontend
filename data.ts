@@ -30,10 +30,10 @@ export const data = [
     image: "/others/16695529_5520909.png",
   },
   {
-    name: "Krypton;",
+    name: "Krypton",
     content:
       "A universe of magic and myth. Sitzerk is a world of enchantment and fantasy, where ancient magic flows through the very fabric of the universe",
-    image: "/others/Krypton.png",
+    image: "/others/krypton.png",
   },
 ];
 
