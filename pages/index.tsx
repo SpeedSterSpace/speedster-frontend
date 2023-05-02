@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { data, secondData } from "@/data";
 import Grid from "@/components/Grid";
 import Landing from "@/components/Landing";
-import Speedstar from "@/components/Speedstar";
+import Speedster from "@/components/Speedster";
 import Roadmap from "@/components/Roadmap";
 import Partners from "@/components/Partners";
 import Slider from "@/components/Slider";
@@ -36,7 +36,7 @@ export default function Home() {
   return (
     <main>
       <Landing />
-      <Speedstar />
+      <Speedster />
       <div className="w-11/12 xl:w-3/4 mx-auto md:my-[8rem] mt-[5rem]">
         <h2 className="text-[2rem] xl:text-[4rem] leading-none mb-8 font-bold">
           Galaxies Unending....
