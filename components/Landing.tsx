@@ -10,11 +10,18 @@ const Landing = () => {
           <h1 className="text-[2rem] xl:text-[3.8rem] leading-none mb-8 font-bold">
             <Typewriter
               options={{
-                strings: "Explore the worlds beyond us",
+                strings: [
+                  "The fate of the galaxy is in your hands",
+                  "Become a hero among the stars",
+                  "Discover new worlds with exotic creatures",
+                  "Reveal untold treasures concealed in planets",
+                  "Navigate through treacherous asteroids fields",
+                  "Engage in epic battles with advanced weaponry",
+                ],
                 autoStart: true,
                 loop: true,
-                delay: 60,
-                deleteSpeed: 20,
+                delay: 70,
+                deleteSpeed: 10,
               }}
             />
           </h1>
